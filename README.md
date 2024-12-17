@@ -8,5 +8,5 @@ The purpose of this repository is to keep track of tools used to create a region
 - [COSIMA Bathymetry tools](https://github.com/COSIMA/bathymetry-tools)
 
 ### How it works:
-- Feel free to fork this repository and push any changes you make, notebooks and documentation you add back via pull request
+- Feel free to contribute back to this repository and push any changes you make, notebooks and documentation you add back via pull request
 - [This list of issues](https://github.com/claireyung/mom6-panAn-iceshelf-tools/issues) has a list of things to work on
