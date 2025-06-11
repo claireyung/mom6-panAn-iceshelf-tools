@@ -2,3 +2,4 @@
 .DS_Store
 dask-worker-space/
 *.nc
+claire/

@@ -10,5 +10,7 @@ The purpose of this repository is to keep track of tools used to create a region
 - Feel free to contribute back to this repository and push any changes you make, notebooks and documentation you add back via pull request
 - [This list of issues](https://github.com/claireyung/mom6-panAn-iceshelf-tools/issues) has a list of things to work on
 
-### Draft extended ACCESS-OM3 0.25 deg grid with displaced South Pole:
-- [Command + modification to `ocean_grid_generator.py` + file path here](https://github.com/claireyung/mom6-panAn-iceshelf-tools/issues/1#issuecomment-2579196477)
+### current working panan-rOM3 config (no ice shelves)
+
+- [Directory](https://github.com/claireyung/access-om3-configs/tree/8km_jra_ryf_obc2-sapphirerapid-Charrassin2)
+- [Instructions](https://github.com/claireyung/access-om3-configs/blob/8km_jra_ryf_obc2-sapphirerapid-Charrassin2/panantarctic_instructions.md)
