@@ -12,5 +12,5 @@ The purpose of this repository is to keep track of tools used to create a region
 
 ### current working panan-rOM3 config (no ice shelves)
 
-- [Directory](https://github.com/claireyung/access-om3-configs/tree/8km_jra_ryf_obc2-sapphirerapid-Charrassin2)
-- [Instructions](https://github.com/claireyung/access-om3-configs/blob/8km_jra_ryf_obc2-sapphirerapid-Charrassin2/panantarctic_instructions.md)
+- [Directory](https://github.com/claireyung/access-om3-configs/tree/8km_jra_ryf_obc2-cascadelake-Charrassin-newparams-rerun-Wright-spinup-accessom2IC)
+- [Instructions](https://github.com/claireyung/access-om3-configs/blob/8km_jra_ryf_obc2-cascadelake-Charrassin-newparams-rerun-Wright-spinup-accessom2IC/panantarctic_instructions.md)
