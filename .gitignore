@@ -3,3 +3,4 @@
 dask-worker-space/
 *.nc
 claire/
+*/.ipynb_checkpoints/
