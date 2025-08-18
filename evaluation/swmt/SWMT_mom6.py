@@ -58,7 +58,7 @@ if __name__ == '__main__':
     end_time='1910-12-31'
     time_slice = slice(start_time,end_time)
     lat_slice  = slice(-80,-59)
-    lon_slice  = slice(-280,-80)
+    lon_slice  = slice(-280,80)
     
     outpath = '/g/data/gv90/fbd581/access-om3-iceshelves/mom6-panAn-iceshelf-tools/Hackathon_evaluation/Figures/'
     
@@ -115,28 +115,6 @@ if __name__ == '__main__':
                 if 'z_l' in ds[k][var].dims:
                     surface_z = ds[k][var]['z_l'][0].values
                     ds[k][var] = ds[k][var].sel(z_l = 0, method = 'nearest')
-    
-    
-                ## - old version from Julia:
-                # if k in ["area", "maximum_depth"]:
-                #     ds[k][var] = esm_datastore.search(variable=var, file_id='ocean_month_z').to_dask(preprocess=reset_y_coords,
-                #                 xarray_open_kwargs={'decode_timedelta':True})[var]
-    
-                #     ds[k][var] = ds[k][var].cf.sel(X = lon_slice, Y = lat_slice)
-                # else:
-                #     try:
-                #         ds[k][var] = esm_datastore.search(variable=var, file_id='ocean_month_z', frequency=freq).to_dask(preprocess=reset_y_coords,
-                #             xarray_open_kwargs={
-                #                 "chunks": {"time": "auto"},
-                #                 "decode_timedelta": False
-                #             })[var]
-                #         ds[k][var] = ds[k][var].cf.sel(
-                #             X = lon_slice, Y = lat_slice,
-                #             time = slice(start_time, end_time))
-    
-    
-                    # except Exception as e:
-                    #     raise Exception(f"Data loading error: var={var}, freq={freq}, start_time={start_time}, end_time={end_time}, expt={expt}: {str(e)}")
     
         # Get temperature and salinity to calculate few other things we'll need later on
         SP = ds['salinity'][model_vars[model]['salinity'][0]]
