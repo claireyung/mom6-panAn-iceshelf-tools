@@ -278,8 +278,8 @@ if __name__ == '__main__':
     
     print('Finish binning salt/heat transformation!')
     
-    salt_transformation_binned.to_netcdf(pathlib.Path(temp_dir, "binned_salt_transformation_mom6-8km_v2.nc"), mode="w")
+    salt_transformation_binned.to_netcdf(pathlib.Path(temp_dir, "binned_salt_transformation_mom6-8km.nc"), mode="w")
     print('Saved salt transf. binned!')
     
-    heat_transformation_binned.to_netcdf(pathlib.Path(temp_dir, "binned_heat_transformation_mom6-8km_v2.nc"), mode="w")
+    heat_transformation_binned.to_netcdf(pathlib.Path(temp_dir, "binned_heat_transformation_mom6-8km.nc"), mode="w")
     print('Saved heat transf. binned!')
