@@ -23,7 +23,11 @@ Feel free to contribute back to this repository and push any changes you make, n
 - [Configuration](https://github.com/ACCESS-NRI/access-om3-configs/pull/713)
 
 ### pan-Antarctic regional ACCESS-OM3 config (with ice shelves)
-#### 4-year spun-up config (not tuned)
-- [Configuration](https://github.com/claireyung/access-om3-configs/tree/dev-MC_4km_jra_ryf%2Bregionalpanan%2Bisf%2Bnofrazilshelf%2Btide)
-- [Instructions](https://github.com/claireyung/access-om3-configs/tree/dev-MC_4km_jra_ryf%2Bregionalpanan%2Bisf%2Bnofrazilshelf%2Btide/ice_shelf_instructions.md)
-
+Links from various places! 
+- Repository with notebooks used to generate input files and evaluate model https://github.com/claireyung/mom6-panAn-iceshelf-tools
+- Wiki with instructions on how to make the config (quite a few steps) https://github.com/claireyung/mom6-panAn-iceshelf-tools/wiki/ACCESS%E2%80%90OM3-config-with-ice-shelves-%E2%80%90-input-files-and-config-details
+- IAF OM3 panan ice shelf config that I ran https://github.com/claireyung/access-om3-configs/tree/ice_shelf_panan-iaf_v2026_2
+- How-to-run instructions for that config (running for the first month is a bit different) https://github.com/claireyung/access-om3-configs/blob/ice_shelf_panan-iaf_v2026_2/ice_shelf_instructions.md
+- List of issues to be considered for om3 ice shelf model development https://github.com/claireyung/mom6-panAn-iceshelf-tools/issues/49
+- ACCESS-NRI progress towards alpha ice shelf config (basically the old RYF config with a couple of bug fixes, https://github.com/ACCESS-NRI/access-om3-configs/pull/1078)
+- ACCESS-OM3 executable used uses this MOM6 version https://github.com/ACCESS-NRI/MOM6/tree/ice-shelf-dev and is compiled using spack prerelease tool here https://github.com/ACCESS-NRI/ACCESS-OM3/pull/142 Requires code changes to nuopc mom cap and ice shelf code described here https://github.com/ACCESS-NRI/MOM6/issues/29 and here https://github.com/ACCESS-NRI/MOM6/pull/38
