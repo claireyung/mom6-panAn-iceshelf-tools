@@ -31,3 +31,4 @@ Links from various places!
 - List of issues to be considered for om3 ice shelf model development https://github.com/claireyung/mom6-panAn-iceshelf-tools/issues/49
 - ACCESS-NRI progress towards alpha ice shelf config (basically the old RYF config with a couple of bug fixes, https://github.com/ACCESS-NRI/access-om3-configs/pull/1078)
 - ACCESS-OM3 executable used uses this MOM6 version https://github.com/ACCESS-NRI/MOM6/tree/ice-shelf-dev and is compiled using spack prerelease tool here https://github.com/ACCESS-NRI/ACCESS-OM3/pull/142 Requires code changes to nuopc mom cap and ice shelf code described here https://github.com/ACCESS-NRI/MOM6/issues/29 and here https://github.com/ACCESS-NRI/MOM6/pull/38
+- New config!! With updated MOM6 source and start time but otherwise the same as previous: https://github.com/claireyung/access-om3-configs/tree/ice_shelf_panan-iaf_v2026_reruntest
